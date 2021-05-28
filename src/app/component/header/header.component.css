@@ -1,0 +1,14 @@
+.mouse-cursor:hover{
+    cursor: pointer;
+    background-color: rgb(218, 233, 8);
+    border-radius: 5px;
+  
+}
+.mouse-cursor{
+color: white;
+}
+.fixed-top {
+    top: -40px;
+    transform: translateY(40px);
+    transition: transform .3s;
+}

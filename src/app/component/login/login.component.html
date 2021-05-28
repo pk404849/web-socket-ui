@@ -1,0 +1,21 @@
+<app-header></app-header>
+<div class="outer-login">
+  <div class="inner-login card border border-success">
+      <div class="login-form card-body ">
+          <div class="form-group">
+            <b><label for="uname">Username:</label></b>
+            <input type="text" class="form-control" id="uname"  [(ngModel)]="loginModel.userName" placeholder="Enter username" name="uname" >
+            <!-- <div class="valid-feedback">Valid.</div> -->
+            <!-- <div class="invalid-feedback">Please fill out this field.</div> -->
+          </div>
+          <div class="form-group">
+          <b><label for="pwd">Password:</label></b>
+            <input type="password" class="form-control" id="password" [(ngModel)]="loginModel.password" placeholder="Enter password" name="password">
+            <!-- <div class="valid-feedback">Valid.</div> -->
+            <!-- <div class="invalid-feedback">Please fill out this field.</div> -->
+          </div>
+       
+          <button type="submit" class="btn btn-primary" (click)="login()">LOGIN</button>
+      </div>
+  </div>
+</div>

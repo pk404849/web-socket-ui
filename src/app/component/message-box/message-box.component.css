@@ -1,0 +1,106 @@
+.row{
+  width: 101%;
+}
+.left-card{
+  width: 371px;
+}
+.right-card{
+  width: 100%;
+}
+/* //------------------------------------------- */
+.left-card{
+  width: 104%;
+}
+.card-body li {
+  width: 371px;
+  padding: 10px 20px;
+  margin-bottom: 3px !important;
+  border-radius: 5px;
+  margin-left: -25px;
+  list-style-type: none;
+  /* margin-top: -15px; */
+ }
+
+.card-header li {
+  width: 394px;
+  padding: 10px 20px;
+  margin-bottom: 3px !important;
+  border-radius: 5px;
+  margin-left: -25px;
+  list-style-type: none;
+ 
+}
+.card-footer li {
+  width: 394px;
+  padding: 10px 20px;
+  margin-bottom: 3px !important;
+  border-radius: 5px;
+  margin-left: -25px;
+  list-style-type: none;
+ 
+}
+.name-circle{
+  height: 50px;
+width: 48px;
+font-size: 34px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+}
+.name-circle span{
+  margin-left: 16px;
+}
+.left-box .card-body{
+  padding: 0px;
+}
+.user-info{
+  margin-left: 11px;
+}
+.profile-data:hover{
+    cursor: pointer;
+}
+.img-cont input{
+ /* width: 104%; */
+  border-radius: 13px;
+  margin-top: -12px;
+  height: 65px;
+  /* margin-left: -23px;*/
+}
+.message-footer{
+  height: 62px;
+}
+.send button{
+  margin-left: 1381%;
+  margin-top: -22px;
+  height: 60px;
+  border-radius: 12px;
+}
+
+.logout{
+  font-size:48px;
+  color:rgba(9, 241, 47, 0.685);
+}
+
+.logout-icon{
+  text-align: right;
+}
+
+.logout-icon .logout:hover{
+  cursor: pointer;
+  color: red;
+}
+
+.search-box{
+  width: 112%;
+  margin-left: -20px;
+}
+
+.right-card-body{
+  height:530px;
+  overflow-y: scroll;
+}
+
+.left-card-body{
+  height: 605px;
+  overflow-y: auto;
+}

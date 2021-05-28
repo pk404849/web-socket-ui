@@ -1,0 +1,30 @@
+<app-header></app-header>
+<div class="outer-register">
+    <div class="inner-register card border border-success">
+        <div class="register-form card-body ">
+            <div class="form-group">
+                <b><label for="uname">Name</label></b>
+                <input type="text" class="form-control" id="name" [(ngModel)]="userModel.name" placeholder="Enter name" name="name">
+                <!-- <div class="valid-feedback">Valid.</div> -->
+                <!-- <div class="invalid-feedback">Please fill out this field.</div> -->
+            </div>
+            <div class="form-group">
+                <b><label for="pwd">Mobile Number</label></b>
+                <input type="text" class="form-control" id="mobileNumber" [(ngModel)]="userModel.mobileNumber" placeholder="Enter mobile number" name="mobileNumber">
+                <!-- <div class="valid-feedback">Valid.</div> -->
+                <!-- <div class="invalid-feedback">Please fill out this field.</div> -->
+            </div>
+            <div class="form-group">
+                <b><label for="pwd">Email</label></b>
+                <input type="email" class="form-control" id="email" [(ngModel)]="userModel.email" placeholder="Enter email" name="email">
+                <!-- <div class="valid-feedback">Valid.</div> -->
+                <!-- <div class="invalid-feedback">Please fill out this field.</div> -->
+            </div>
+            <div class="form-group">
+                <b><label for="pwd">Password</label></b>
+                <input type="password" class="form-control" id="password" [(ngModel)]="userModel.password" placeholder="Enter password" name="password">
+            </div>
+            <button type="submit" class="btn btn-primary" (click)="registerUser()">REGISTER</button>
+        </div>
+    </div>
+</div>
